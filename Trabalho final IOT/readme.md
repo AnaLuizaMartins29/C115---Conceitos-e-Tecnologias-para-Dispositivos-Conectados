@@ -11,11 +11,11 @@ O sistema de controle de janelas funciona da seguinte forma:
 
 ## Tecnologias Utilizadas
 
-## Kivy: Framework para criação de interfaces gráficas.
-## MQTT: Protocolo de comunicação para dispositivos IoT.
-## Python: Linguagem de programação utilizada para o desenvolvimento.
+- **Kivy**: Framework para criação de interfaces gráficas.
+- **MQTT**: Protocolo de comunicação para dispositivos IoT.
+- **Python**: Linguagem de programação utilizada para o desenvolvimento.
 
-### Instalação
+## Instalação
 
 ### 1. Instalar as dependências
 
@@ -23,29 +23,22 @@ Este projeto requer a instalação de algumas bibliotecas Python. Crie um ambien
 
 ```bash
 pip install kivy paho-mqtt
-
-## Kivy: Usado para criar a interface gráfica.
-## paho-mqtt: Cliente MQTT para comunicação com o servidor/broker.
-
-### 2. Baixar as imagens
+Kivy: Usado para criar a interface gráfica.
+paho-mqtt: Cliente MQTT para comunicação com o servidor/broker.
+2. Baixar as imagens
 Este código depende de duas imagens (closed.jpg e open.jpg) que representam o estado da janela (fechada e aberta, respectivamente). Certifique-se de ter essas imagens na mesma pasta onde o código está.
 
-### 3. Rodando o código
-
+3. Rodando o código
 Para rodar o código, basta executar o arquivo main.py:
 
-```bash
+bash
+Copiar código
 python main.py
+Isso abrirá a interface gráfica do Kivy com um botão "Abrir Janela". Quando o botão for pressionado, o sistema enviará um comando MQTT para o dispositivo controlado (que pode ser um motor ou atuador) para abrir ou fechar a janela. A imagem na interface gráfica será atualizada conforme o estado da janela.
 
-Isso abrirá a interface gráfica do Kivy com um botão "Abrir Janela". Quando o botão for pressionado, o sistema enviará um comando MQTT para o dispositivo controlado (que pode ser um motor ou atuador) para abrir ou fechar a janela. 
-A imagem na interface gráfica será atualizada conforme o estado da janela.
-
-### 4. Testando a Conexão MQTT
+4. Testando a Conexão MQTT
 O código está configurado para usar um broker MQTT público (mqtt.eclipseprojects.io), mas você pode configurar um broker privado se necessário.
 
-
 Autor
-Nome: [Ana Luiza Martins]
-Matrícula: [1701]
-
-
+Nome: Ana Luiza Martins
+Matrícula: 1701
