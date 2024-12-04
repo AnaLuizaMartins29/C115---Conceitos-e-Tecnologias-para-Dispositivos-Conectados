@@ -11,11 +11,11 @@ O sistema de controle de janelas funciona da seguinte forma:
 
 ## Tecnologias Utilizadas
 
-**Kivy**: Framework para criação de interfaces gráficas.
-**MQTT**: Protocolo de comunicação para dispositivos IoT.
-**Python**: Linguagem de programação utilizada para o desenvolvimento.
+## Kivy: Framework para criação de interfaces gráficas.
+## MQTT: Protocolo de comunicação para dispositivos IoT.
+## Python: Linguagem de programação utilizada para o desenvolvimento.
 
-## Instalação
+### Instalação
 
 ### 1. Instalar as dependências
 
