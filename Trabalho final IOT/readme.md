@@ -11,13 +11,9 @@ O sistema de controle de janelas funciona da seguinte forma:
 
 ## Tecnologias Utilizadas
 
-- **Kivy**: Framework para criação de interfaces gráficas.
-- **MQTT**: Protocolo de comunicação para dispositivos IoT.
-- **Python**: Linguagem de programação utilizada para o desenvolvimento.
-
-## Estrutura do Projeto
-
-
+**Kivy**: Framework para criação de interfaces gráficas.
+**MQTT**: Protocolo de comunicação para dispositivos IoT.
+**Python**: Linguagem de programação utilizada para o desenvolvimento.
 
 ## Instalação
 
@@ -46,7 +42,6 @@ A imagem na interface gráfica será atualizada conforme o estado da janela.
 
 ### 4. Testando a Conexão MQTT
 O código está configurado para usar um broker MQTT público (mqtt.eclipseprojects.io), mas você pode configurar um broker privado se necessário.
-
 
 
 Autor
